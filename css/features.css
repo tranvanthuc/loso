@@ -9,13 +9,16 @@ body {
 .overlay {
   background-color: rgba(31, 31, 31, 0.75); }
 
-a:hover, a:visited, a:active, a {
+a:hover,
+a:visited,
+a:active,
+a {
   text-decoration: none; }
 
 .section-title {
   text-align: center; }
   .section-title h1 {
-    color: #129CF3;
+    color: #129cf3;
     position: relative; }
     .section-title h1::after {
       content: "";
@@ -25,7 +28,7 @@ a:hover, a:visited, a:active, a {
       width: 5rem;
       height: 1px;
       margin-left: -2.5rem;
-      background-color: #129CF3; }
+      background-color: #129cf3; }
   .section-title p {
     padding: 0rem 7rem;
     margin-top: 3rem;
@@ -54,10 +57,10 @@ a:hover, a:visited, a:active, a {
     text-transform: uppercase;
     font-size: 1.3rem; }
   .header .btn-download {
-    border-color: #129CF3; }
+    border-color: #129cf3; }
     .header .btn-download:hover {
       color: white;
-      background-color: #129CF3; }
+      background-color: #129cf3; }
   .header .btn-tour {
     color: #7f8c8d; }
     .header .btn-tour:hover {
@@ -66,7 +69,7 @@ a:hover, a:visited, a:active, a {
 .choose-us-header h2 {
   font-weight: 800;
   position: relative;
-  color: #129CF3; }
+  color: #129cf3; }
   .choose-us-header h2::after {
     content: "";
     position: absolute;
@@ -74,13 +77,13 @@ a:hover, a:visited, a:active, a {
     bottom: -1rem;
     width: 5rem;
     height: 1px;
-    background-color: #129CF3; }
+    background-color: #129cf3; }
 
 .choose-us-item {
   position: relative;
   padding-left: 7rem; }
   .choose-us-item .icon {
-    color: #129CF3;
+    color: #129cf3;
     position: absolute;
     top: 4px;
     left: 0; }
@@ -89,7 +92,7 @@ a:hover, a:visited, a:active, a {
   .choose-us-item h3 {
     font-weight: 800;
     font-size: 1.3rem;
-    color: #129CF3; }
+    color: #129cf3; }
 
 .testimonial {
   background-image: url("../images/testimonial-bg.jpg");
@@ -102,21 +105,21 @@ a:hover, a:visited, a:active, a {
     width: 8rem;
     height: 8rem;
     border-radius: 100%;
-    border: 3px solid #129CF3;
+    border: 3px solid #129cf3;
     padding: 3px;
     margin-top: 5rem; }
   .testimonial .carousel-item h2 {
     font-weight: 800;
-    color: #129CF3;
+    color: #129cf3;
     padding-top: 1rem;
     text-transform: uppercase; }
   .testimonial .carousel-item h4 {
     font-weight: 300;
     font-size: 1.3rem;
-    color: #129CF3; }
+    color: #129cf3; }
     .testimonial .carousel-item h4 span {
       font-style: italic;
-      color: #D8D8D8;
+      color: #d8d8d8;
       font-weight: 300; }
   .testimonial .carousel-item p {
     margin-top: 3rem;
@@ -140,9 +143,24 @@ a:hover, a:visited, a:active, a {
     position: absolute;
     top: 0;
     right: 0;
-    color: #129CF3; }
+    color: #129cf3; }
   .features .feature-left h3 {
     font-weight: 800;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     margin-bottom: 1rem;
-    color: #129CF3; }
+    color: #129cf3; }
+.features .feature-right {
+  padding-left: 7rem;
+  position: relative;
+  text-align: left;
+  margin-bottom: 5rem; }
+  .features .feature-right .icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #129cf3; }
+  .features .feature-right h3 {
+    font-weight: 800;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: #129cf3; }
