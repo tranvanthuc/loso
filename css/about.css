@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px; }
+
+.header {
+  background: url("../images/header-bg.jpg") fixed no-repeat center; }
+  .header .header-overlay {
+    background-color: rgba(31, 31, 31, 0.75); }
+  .header .header-title {
+    font-weight: 600;
+    color: white; }
+  .header p {
+    font-size: 1.3rem;
+    color: white; }
+  .header a {
+    transition: all 0.5s;
+    text-transform: uppercase;
+    font-size: 1.3rem; }
+  .header .btn-download {
+    border-color: #007bff; }
+    .header .btn-download:hover {
+      color: white;
+      background-color: #007bff; }
+  .header .btn-tour {
+    color: #7f8c8d; }
+    .header .btn-tour:hover {
+      color: white; }
+
+.about-title h1 {
+  position: relative; }
+  .about-title h1::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -1rem;
+    width: 5rem;
+    height: 1px;
+    margin-left: -2.5rem;
+    background-color: #007bff; }
+.about-title p {
+  padding: 0rem 7rem; }
+
+.choose-us-header h2 {
+  font-weight: 800;
+  position: relative; }
+  .choose-us-header h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1rem;
+    width: 5rem;
+    height: 1px;
+    background-color: #007bff; }
+
+.choose-us-item {
+  position: relative;
+  padding-left: 7rem; }
+  .choose-us-item .icon {
+    color: #007bff;
+    position: absolute;
+    top: 4px;
+    left: 0; }
+    .choose-us-item .icon i {
+      transition: all 0.5s; }
+  .choose-us-item h3 {
+    font-weight: 800;
+    font-size: 1.3rem; }
