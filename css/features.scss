@@ -20,7 +20,10 @@ a {
 }
 
 .section-title {
+  text-align: center;
   h1 {
+    color: #129cf3;
+    position: relative;
     &::after {
       content: "";
       position: absolute;
@@ -39,7 +42,7 @@ a {
   }
 }
 
-// ----------- header -----------------
+// -----------header-----------------
 .header {
   background-image: url("../images/header-bg.jpg");
   background-position: 50% 50%;
@@ -59,38 +62,40 @@ a {
   }
 
   .header-title {
+    color: #ecf0f1;
     font-size: 2.3rem;
+    margin-top: 3rem;
   }
   p {
     font-size: 1.3rem;
+    color: white;
   }
   a {
     transition: all 0.5s;
     text-transform: uppercase;
     font-size: 1.3rem;
   }
-
-  .header-btns {
-    margin-top: 10rem;
-    .btn-download {
-      border-color: #129cf3;
-      &:hover {
-        color: white;
-        background-color: #129cf3;
-      }
+  .btn-download {
+    border-color: #129cf3;
+    &:hover {
+      color: white;
+      background-color: #129cf3;
     }
-    .btn-tour {
-      color: #7f8c8d;
-      &:hover {
-        color: white;
-      }
+  }
+  .btn-tour {
+    color: #7f8c8d;
+    &:hover {
+      color: white;
     }
   }
 }
 
-// ------------- choose us header -------
+// -------------choose us header -------
 .choose-us-header {
   h2 {
+    font-weight: 800;
+    position: relative;
+    color: #129cf3;
     &::after {
       content: "";
       position: absolute;
@@ -103,10 +108,12 @@ a {
   }
 }
 
-// -------------- choose us item --------
+// --------------choose us item --------
 .choose-us-item {
+  position: relative;
   padding-left: 7rem;
   .icon {
+    color: #129cf3;
     position: absolute;
     top: 4px;
     left: 0;
@@ -116,11 +123,13 @@ a {
   }
 
   h3 {
+    font-weight: 800;
     font-size: 1.3rem;
+    color: #129cf3;
   }
 }
 
-// ------------t estimonial -------------
+// ------------testimonial-------------
 .testimonial {
   background-image: url("../images/testimonial-bg.jpg");
   background-position: 50% 50%;
@@ -131,14 +140,34 @@ a {
   img {
     width: 8rem;
     height: 8rem;
+    border-radius: 100%;
     border: 3px solid #129cf3;
     padding: 3px;
     margin-top: 5rem;
   }
 
   .carousel-item {
+    h2 {
+      font-weight: 800;
+      color: #129cf3;
+      padding-top: 1rem;
+      text-transform: uppercase;
+    }
+
     h4 {
+      font-weight: 300;
       font-size: 1.3rem;
+      color: #129cf3;
+      span {
+        font-style: italic;
+        color: #d8d8d8;
+        font-weight: 300;
+      }
+    }
+
+    p {
+      margin-top: 3rem;
+      color: white;
     }
 
     .caption {
@@ -157,36 +186,46 @@ a {
   }
 }
 
-// ------------ features ----------------
+// ------------features----------------
 .features {
   .feature-left {
     padding-right: 7rem;
+    position: relative;
+    text-align: right;
     margin-bottom: 5rem;
+
     .icon {
       position: absolute;
       top: 0;
       right: 0;
+      color: #129cf3;
+    }
+
+    h3 {
+      font-weight: 800;
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+      color: #129cf3;
     }
   }
   .feature-right {
     padding-left: 7rem;
+    position: relative;
+    text-align: left;
     margin-bottom: 5rem;
+
     .icon {
       position: absolute;
       top: 0;
       left: 0;
+      color: #129cf3;
     }
-  }
 
-  .feature-left,
-  .feature-right {
     h3 {
+      font-weight: 800;
       font-size: 1.4rem;
+      margin-bottom: 1rem;
+      color: #129cf3;
     }
   }
-}
-
-// ------------ purchase -------------
-.purchase {
-  padding: 5rem 0;
 }
