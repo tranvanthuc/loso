@@ -153,3 +153,34 @@ a {
     font-size: 3.5rem; }
     .counter .counter-list p {
       font-size: 1.5rem; }
+
+.available p {
+  font-size: 0.9rem; }
+.available .cover-icon {
+  border-left: 1px solid #34495e;
+  transition: all 0.5s; }
+  .available .cover-icon:hover {
+    background-color: #121212; }
+    .available .cover-icon:hover .icon {
+      opacity: 0;
+      transition: all 0.5s; }
+    .available .cover-icon:hover h3 {
+      opacity: 1;
+      transition: all 0.5s; }
+  .available .cover-icon h3 {
+    position: absolute;
+    color: white;
+    font-size: 1.5rem;
+    left: 0;
+    right: 0;
+    top: 50%;
+    margin-top: -1.5rem;
+    opacity: 0; }
+  .available .cover-icon .icon {
+    font-size: 3.6rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 25%;
+    bottom: 0;
+    text-align: center; }

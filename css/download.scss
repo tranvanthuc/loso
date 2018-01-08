@@ -234,20 +234,43 @@ a {
 
 // ----------- available -----------
 .available {
-  // p {
-  //   font-size: 0.9rem;
-  // }
-  // .icon {
-  //   font-size: 3.6rem;
-  //   // position: absolute;
-  //   // left: 0;
-  //   // right: 0;
-  //   // top: 50%;
-  //   // bottom: 0;
-  //   // margin-top: -1.8rem;
-  //   // text-align: center;
-  //   display: table-cell;
-  //   vertical-align: middle;
-  //   text-align: center;
-  // }
+  p {
+    font-size: 0.9rem;
+  }
+  .cover-icon {
+    border-left: 1px solid #34495e;
+    transition: all 0.5s;
+    &:hover {
+      background-color: #121212;
+      .icon {
+        opacity: 0;
+        transition: all 0.5s;
+      }
+      h3{
+        opacity: 1;
+        transition: all 0.5s;
+      }
+      
+    }
+    h3 {
+      position: absolute;
+      color: white;
+      font-size: 1.5rem;
+      left: 0;
+      right: 0;
+      top: 50%;
+      margin-top: -1.5rem;
+      opacity: 0;
+    }
+    .icon {
+      font-size: 3.6rem;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 25%;
+      bottom: 0;
+      text-align: center;
+    }  
+  }
+  
 }
