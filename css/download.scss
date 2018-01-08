@@ -246,11 +246,10 @@ a {
         opacity: 0;
         transition: all 0.5s;
       }
-      h3{
+      h3 {
         opacity: 1;
         transition: all 0.5s;
       }
-      
     }
     h3 {
       position: absolute;
@@ -272,5 +271,23 @@ a {
       text-align: center;
     }  
   }
-  
+}
+
+// ---------- contact -------------
+.contact {
+  #message {
+    resize: none;
+    height: auto;
+  }
+
+  .social {
+    a {
+      width: 5%;
+    }
+  }
+}
+
+// ------------ footer ------------
+.footer {
+  border-bottom: 5px solid #129cf3;
 }

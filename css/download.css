@@ -184,3 +184,12 @@ a {
     top: 25%;
     bottom: 0;
     text-align: center; }
+
+.contact #message {
+  resize: none;
+  height: auto; }
+.contact .social a {
+  width: 5%; }
+
+.footer {
+  border-bottom: 5px solid #129cf3; }
