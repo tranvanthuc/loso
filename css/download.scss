@@ -49,8 +49,7 @@ a {
 
   .logo {
     img {
-      margin-top: 10rem;
-      margin-bottom: 5rem;
+      margin: 5rem 0;
     }
   }
 
@@ -127,7 +126,6 @@ a {
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-bottom: 5rem;
   img {
     width: 8rem;
     height: 8rem;
@@ -224,8 +222,7 @@ a {
     background-color: rgba(0, 0, 0, 0.4);
   }
   .counter-list {
-    margin-top: 7rem;
-    margin-bottom: 5rem;
+    margin-top: 5rem;
     padding: 7rem 5rem;
     font-family: "Source Sans Pro", sans-serif;
     font-size: 3.5rem;
@@ -233,4 +230,24 @@ a {
       font-size: 1.5rem;
     }
   }
+}
+
+// ----------- available -----------
+.available {
+  // p {
+  //   font-size: 0.9rem;
+  // }
+  // .icon {
+  //   font-size: 3.6rem;
+  //   // position: absolute;
+  //   // left: 0;
+  //   // right: 0;
+  //   // top: 50%;
+  //   // bottom: 0;
+  //   // margin-top: -1.8rem;
+  //   // text-align: center;
+  //   display: table-cell;
+  //   vertical-align: middle;
+  //   text-align: center;
+  // }
 }
