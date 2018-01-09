@@ -38,26 +38,27 @@ $(document).ready(function () {
     }
   })
 
+  let navbar = $('.navbar-nav')
   // active menu when on click navbar
   $('.navbar-nav .nav-item a').click(function () {
     let _this = $(this)
-    $('.navbar-nav').find('.active').removeClass('active')
+    navbar.find('.active').removeClass('active')
     _this.parent().addClass('active')
   })
 
   // click button scroll top and logo 
   function navClickGoHome(object) {
     $(object).click(function () {
+      navbar.find('.active').removeClass('active')
+      navbar.find("a[href='#home']").addClass('active')
 
-      $('.navbar-nav').find('#home').addClass('active')
-      $('.navbar-nav').find('.active').removeClass('active')
     })
   }
   navClickGoHome('.btn-scroll a')
   navClickGoHome('.nav-logo')
 
   // highlight menu item on scroll
-  let navbar = $('.navbar-nav')
+
   $(window).scroll(function () {
     let winScroll = $(window).scrollTop();
     if (winScroll < 500) {
@@ -83,3 +84,25 @@ $(document).ready(function () {
   })
 })
 
+
+// counter
+$('.counter-download').counterUp({
+  delay: 10,
+  time: 1000
+});
+$('.counter-gift').counterUp({
+  delay: 10,
+  time: 1000
+});
+$('.counter-heart').counterUp({
+  delay: 10,
+  time: 1000
+});
+$('.counter-recomended').counterUp({
+  delay: 10,
+  time: 1000
+});
+
+
+// wow
+new WOW().init();

@@ -4,7 +4,8 @@
 
 body {
   font-family: "Raleway", sans-serif;
-  font-size: 16px; }
+  font-size: 16px;
+  overflow-x: hidden; }
 
 .overlay {
   background-color: rgba(31, 31, 31, 0.75); }
