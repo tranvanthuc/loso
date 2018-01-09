@@ -39,6 +39,10 @@ a {
   }
 }
 
+.mt-10 {
+  margin-top: 7rem;
+}
+
 // ----------- header -----------------
 .header {
   background-image: url("../images/header-bg.jpg");
@@ -49,8 +53,7 @@ a {
 
   .logo {
     img {
-      margin-top: 10rem;
-      margin-bottom: 5rem;
+      margin: 5rem 0;
     }
   }
 
@@ -127,7 +130,6 @@ a {
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-bottom: 5rem;
   img {
     width: 8rem;
     height: 8rem;
@@ -224,8 +226,7 @@ a {
     background-color: rgba(0, 0, 0, 0.4);
   }
   .counter-list {
-    margin-top: 7rem;
-    margin-bottom: 5rem;
+    margin-top: 5rem;
     padding: 7rem 5rem;
     font-family: "Source Sans Pro", sans-serif;
     font-size: 3.5rem;
@@ -233,4 +234,64 @@ a {
       font-size: 1.5rem;
     }
   }
+}
+
+// ----------- available -----------
+.available {
+  p {
+    font-size: 0.9rem;
+  }
+  .cover-icon {
+    border-left: 1px solid #34495e;
+    transition: all 0.5s;
+    &:hover {
+      background-color: #121212;
+      .icon {
+        opacity: 0;
+        transition: all 0.5s;
+      }
+      h3 {
+        opacity: 1;
+        transition: all 0.5s;
+      }
+    }
+    h3 {
+      position: absolute;
+      color: white;
+      font-size: 1.5rem;
+      left: 0;
+      right: 0;
+      top: 50%;
+      margin-top: -1.5rem;
+      opacity: 0;
+    }
+    .icon {
+      font-size: 3.6rem;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 25%;
+      bottom: 0;
+      text-align: center;
+    }  
+  }
+}
+
+// ---------- contact -------------
+.contact {
+  #message {
+    resize: none;
+    height: auto;
+  }
+
+  .social {
+    a {
+      width: 5%;
+    }
+  }
+}
+
+// ------------ footer ------------
+.footer {
+  border-bottom: 5px solid #129cf3;
 }
