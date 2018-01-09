@@ -42,6 +42,9 @@ a {
 .mt-10 {
   margin-top: 7rem;
 }
+.pt-10 {
+  padding-top: 7rem;
+}
 
 // ----------- header -----------------
 .header {
@@ -294,4 +297,11 @@ a {
 // ------------ footer ------------
 .footer {
   border-bottom: 5px solid #129cf3;
+}
+
+// btn scroll
+.btn-scroll {
+  position: fixed;
+  top: 90%;
+  right: 5%;
 }

@@ -32,6 +32,9 @@ a {
 .mt-10 {
   margin-top: 7rem; }
 
+.pt-10 {
+  padding-top: 7rem; }
+
 .header {
   background-image: url("../images/header-bg.jpg");
   background-position: 50% 50%;
@@ -196,3 +199,8 @@ a {
 
 .footer {
   border-bottom: 5px solid #129cf3; }
+
+.btn-scroll {
+  position: fixed;
+  top: 90%;
+  right: 5%; }
